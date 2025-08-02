@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bolsa_negra', 'hoja', 'moneda']
+
+roboflow:
+  workspace: carroia
+  project: deteccion_frutas_variadas
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/carroia/deteccion_frutas_variadas/dataset/3
