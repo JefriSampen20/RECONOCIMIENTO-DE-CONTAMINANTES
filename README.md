@@ -23,7 +23,7 @@ Gracias a este enfoque, pudimos:
 
 - Acelerar el proceso de etiquetado, manteniendo la calidad de los datos de entrenamiento.
 
-# Procesamiento de Imágenes
+### 🧼 Procesamiento de imágenes
 
 Antes del entrenamiento del modelo, cada imagen fue sometida a un preprocesamiento, con el objetivo de normalizar su formato y asegurar consistencia en el dataset. Las operaciones aplicadas fueron:
 
@@ -31,7 +31,7 @@ Antes del entrenamiento del modelo, cada imagen fue sometida a un preprocesamien
 
 - Redimensionamiento de todas las imágenes a una resolución fija de 640 × 640 píxeles, ajustando las proporciones mediante estiramiento.
 
-# Aumento de Datos (Data Augmentation)
+### 🌀 Aumento de datos (Data Augmentation)
 
 Para aumentar la cantidad y variedad del conjunto de datos, se aplicaron técnicas de aumento automático, generando tres versiones adicionales por cada imagen original. Estas técnicas incluyeron:
 
@@ -43,11 +43,11 @@ Para aumentar la cantidad y variedad del conjunto de datos, se aplicaron técnic
 
 Este conjunto enriquecido de datos permitió entrenar modelos más robustos, capaces de reconocer los contaminantes en distintas condiciones de luz, orientación y enfoque.
 
-# Anotaciones
+### 🧾 Anotaciones
 
 Todas las anotaciones generadas fueron estructuradas en el formato YOLOv8, lo que facilitó el entrenamiento del modelo utilizando herramientas modernas y eficientes de detección de objetos.
 
-# Librerías utilizadas
+### 📦 Librerías necesarias
 
 Durante el desarrollo del proyecto, se emplearon las siguientes librerías y herramientas principales en el entorno Python:
 
@@ -71,30 +71,33 @@ Durante el desarrollo del proyecto, se emplearon las siguientes librerías y her
 
 - tqdm – para visualizar barras de progreso durante procesos largos.
 
-# Procedimientos de instalación y configuración
+### 🔧 Procedimiento de instalación y configuración
 
 A continuación, se describen los pasos básicos para instalar y configurar el entorno del proyecto:
 
-## 1. Crear entorno virtual (opcional pero recomendado)
+### 1. Crear entorno virtual (opcional pero recomendado)
 
     python -m venv venv
     source venv/bin/activate   # En Linux/macOS
     venv\Scripts\activate.bat  # En Windows
 
-## 2. Clonar los repositorios necesarios
+### 2. Clonar los repositorios necesarios
 
 git clone https://github.com/IDEA-Research/GroundingDINO.git
 cd GroundingDINO
 
-## 3. Instalar dependencias principales
+### 3. Instalar dependencias principales
 
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
     pip install opencv-python numpy matplotlib pillow transformers
     pip install -e .  # para instalar GroundingDINO como paquete local
 
-## 4. Instalar Ultralytics (YOLOv8)
+### 4. Entrenamiento del modelo YOLOv8
 
-    pip install ultralytics
+El entrenamiento del modelo YOLOv8 no se realizó localmente como librería, sino a través de la plataforma en línea [Roboflow](https://roboflow.com/), que ofrece una interfaz gráfica para gestionar datasets, entrenar modelos y exportar resultados fácilmente. 
+
+Se subió el conjunto de datos anotado al entorno de Roboflow, donde se aplicaron transformaciones adicionales y se entrenó el modelo utilizando los recursos en la nube, lo cual permitió acelerar el proceso sin requerir configuración manual de entorno ni uso local de GPU.
+
 
 ## 5. Instalar otras utilidades
 
@@ -102,17 +105,17 @@ cd GroundingDINO
 
 Nota: Asegúrate de tener Python 3.8 o superior y una versión de CUDA compatible si planeas usar GPU. Puedes verificar la compatibilidad en la página oficial de PyTorch.
 
-# Autores
+### 👨‍💻 Autores
 
 - AREVALO MENDOZA ALESSANDRO MIGUEL
 - GONZALES ALVARADO SEBASTIAN ANTONY
 - SAMPEN CHANCAFE JEFFERSON ARMANDO
 
-# Licencia
+### 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes usar, modificar y distribuir este código con fines educativos y de investigación, siempre que se otorgue el debido crédito.
 
-# Créditos
+### 🏫 Créditos
 
 * Universidad Nacional de Piura
 
