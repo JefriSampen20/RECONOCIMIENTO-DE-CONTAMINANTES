@@ -1,11 +1,11 @@
 # 🧪 Proyecto de Detección de Contaminantes en Frutas
 Somos estudiantes de la Universidad Nacional de Piura, de la Escuela Profesional de Ingeniería Electrónica y Telecomunicaciones. En este proyecto desarrollamos un sistema de visión por computadora enfocado en la detección de contaminantes, utilizando técnicas de autoetiquetado, procesamiento de imágenes, y entrenamiento de modelos de detección basados en inteligencia artificial.
 
-# Descripción general del proyecto
+### 📌 Descripción general
 
 El objetivo principal fue detectar y clasificar tres tipos diferentes de contaminantes presentes en distintos entornos. Para ello, trabajamos con un total de 300 imágenes, distribuidas en tres etiquetas principales (100 imágenes por clase), las cuales fueron procesadas y anotadas en el formato YOLOv8.
 
-# Autoetiquetado con Grounding DINO
+### ⚙️ Autoetiquetado con Grounding DINO
 
 Con el fin de reducir el tiempo invertido en la anotación manual, implementamos un sistema de autoetiquetado semiautomático utilizando el modelo Grounding DINO. Este modelo permite generar cajas delimitadoras (bounding boxes) precisas a partir de descripciones en lenguaje natural.
 
