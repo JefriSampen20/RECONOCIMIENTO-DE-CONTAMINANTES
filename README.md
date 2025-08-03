@@ -1,4 +1,4 @@
-# Proyecto de Detección de Contaminantes en frutas
+# 🧪 Proyecto de Detección de Contaminantes en Frutas
 Somos estudiantes de la Universidad Nacional de Piura, de la Escuela Profesional de Ingeniería Electrónica y Telecomunicaciones. En este proyecto desarrollamos un sistema de visión por computadora enfocado en la detección de contaminantes, utilizando técnicas de autoetiquetado, procesamiento de imágenes, y entrenamiento de modelos de detección basados en inteligencia artificial.
 
 # Descripción general del proyecto
