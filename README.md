@@ -123,4 +123,4 @@ Este proyecto está bajo la licencia MIT. Puedes usar, modificar y distribuir es
 
 * IDEA Research (GroundingDINO)
 
-Ultralytics (YOLOv8)
+* Ultralytics (YOLOv8)
